@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+  background-color: #ffe500;
+  font-family: 'Sigmar One', cursive;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+nav {
+  text-align: center;
+  display: block;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: cursive;
+}
+
+.header li {
+  text-decoration: none;
+  padding: .5em .75em;
+  background-color: #fff;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0;
+  padding: .75em;
+
+}
+a {
+  text-decoration: none;
+  color: #b20953;
+  padding: .2em .5em .3em;
+  background-color: #ffe500;
+  border-radius: 10px
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #cc1465;
+
+}
