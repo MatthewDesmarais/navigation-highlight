@@ -113,7 +113,7 @@ nav a {
 img {
   display: block;
   margin: auto auto auto 0;
-  width: 100%;
+  width: auto;
   height: auto;
   padding: 0.75em;
 }
