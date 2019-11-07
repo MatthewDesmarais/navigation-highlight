@@ -12,23 +12,43 @@ body {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-
-                        /* Title  */
+                                                                /* Title  */
 h1 {
   text-align: center;
   color: #b20953;
+  font-size: 3rem;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+  background-color: #ffe500;
+
+}
+                                                      /* Index Information */
+h2 {
+  color: #b20953;
+  font-size: 1.875rem;
+  margin: 0;
 }
 
-                        /* Index Information */
 p {
   font-family: serif;
-  color: black;
+  color: #2f2d13;
 }
 
-                        /* @Berries */
+small {
+  color: #000;
+  font-weight: lighter;
+  font-family: serif;
+  display: block;
+}
+                                                              /* @Berries */
 footer {
   background-color: #ffe500;
   text-align: center;
+  height: 50px;
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 nav {
@@ -37,40 +57,63 @@ nav {
   text-decoration: none;
   list-style-type: none;
   font-family: serif;
-}
-                        /* Nav Boxes */
-header {
+  border: 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
   background-color: #ffe500;
   margin: 0 auto;
-  height: 15%;
 }
+                                                              /* Nav Boxes */
+
 
 nav ul {
-}
-
-nav li {
-  display: block;
-  text-decoration: none;
-  border-radius: 10px;
   display: inline-block;
-  padding: 0.75em 1.25em;
-  text-align: center;
-  background-color: rgb(0, 0, 0, 0.5);
-  overflow: auto;
+  margin: 0;
+  padding-left: 0;
 }
-
+                                                              /* Nav Font */
 a {
   text-decoration: none;
-  color: #b20953;
+  color: #fff;
   padding: .2em .5em .3em;
-  border-radius: 10px
+  border-radius: 4px;
   display: inline-block;
 }
 
 .main {
   background-color: #fff;
 }
-nav a:hover {
+a:hover {
   background-color: #cc1465;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 4px;
+}
 
+nav li {
+  display: inline-block;
+  font-family: Georgia, serif;
+  color: #fff;
+}
+
+nav a {
+  display: inline-block;
+  padding: .2em .5em .3em;
+  border-radius: 4px;
+  background-color: #b2a212;
+  color: #fff;
+}
+
+.current {
+  background-color: #b20953;
+}
+
+/* Images */
+
+img {
+  display: block;
+  margin: auto auto auto 0;
+  width: 100%;
+  height: auto;
+  padding: 0.75em;
 }
